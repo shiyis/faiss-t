@@ -11,7 +11,7 @@ Imagine we have **a bunch of points (vectors) floating around in space**. Instea
 **Mathematically, this is done using:**  
 
 🔹 **Finding the nearest point (centroid) for each vector**  
-![math_screenshot](./math_screenshot)
+![math_screenshot](https://github.com/shiyis/faiss-t/blob/368c7835471347d1a3e19646c301aa9052e64de3/math_screenshot.png)
 💡 This is just a fancy way of saying:  
 👉 **Find the closest match and snap to it!**  
 
