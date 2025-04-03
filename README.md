@@ -11,13 +11,13 @@ Imagine we have **a bunch of points (vectors) floating around in space**. Instea
 **Mathematically, this is done using:**  
 
 🔹 **Finding the nearest point (centroid) for each vector**  
-\[
+$$
 \hat{x} = \arg\min_{c \in C} || x - c ||
-\]
-- \( x \) = our original vector (data point)  
-- \( C \) = set of predefined grid points (called "codebook")  
-- \( \hat{x} \) = quantized vector (closest match from the codebook)  
-- \( || x - c || \) = the **distance** between our vector and the codebook points  
+$$
+- $ x $ = our original vector (data point)  
+- $ C $ = set of predefined grid points (called "codebook")  
+- $ \hat{x} $ = quantized vector (closest match from the codebook)  
+- $ || x - c || $ = the **distance** between our vector and the codebook points  
 
 💡 This is just a fancy way of saying:  
 👉 **Find the closest match and snap to it!**  
